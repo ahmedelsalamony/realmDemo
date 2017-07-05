@@ -15,7 +15,7 @@ import io.realm.RealmResults;
  * Created by Ahmed Salamony on 7/5/2017.
  */
 
-public class itemsRepository implements IItemRepository {
+public class ItemsRepository implements IItemRepository {
 
     @Override
     public void addItem(Item student, OnSaveItemCallback callback) {

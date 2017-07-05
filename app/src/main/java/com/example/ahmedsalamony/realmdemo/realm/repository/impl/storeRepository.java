@@ -15,7 +15,7 @@ import io.realm.RealmResults;
  * Created by Ahmed Salamony on 7/5/2017.
  */
 
-public class storeRepository implements IStoreRepository {
+public class StoreRepository implements IStoreRepository {
 
     @Override
     public void addStore(Stores stores, OnSaveStoreCallback callback) {
